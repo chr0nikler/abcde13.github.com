@@ -1,3 +1,16 @@
+@font-face { 
+  font-family: homemade-apple; 
+	src: url('fonts/Homemade_Apple/HomemadeApple-Regular.ttf'); 
+} 
+
+@font-face { 
+  font-family: lato; 
+	src: url('fonts/Lato/Lato-Regular.ttf'); 
+} 
+
+body {
+  font-family: lato;
+}
 
 nav .nav_link {
   flex-grow: 1;
@@ -10,41 +23,40 @@ nav {
   text-align: center;
 }
 
+
 .title {
   text-align: center;
+  font-family: homemade-apple;
 }
 
-object {
-  overflow: visible
-}
-
-article {
-
+main {
   margin: 10px 0px 10px 10%;
 }
 
+article {
+  margin: 10px 0px 10px 10%;
+}
+
+
 article .article_title {
+  font-size: 1.8em;
+  margin: 50px 0px 5px 0px;
+}
 
-  font-size: 1.5em;
-  margin: 10px 0px 5px 0px;
-
+article img {
+  text-align: center;
 }
 
 article .article_date {
   font-size: 1.1em;
-  margin: 5px 0px 10px 0px;
+  margin: 5px 0px 5px 0px;
+  color: gray;
 }
 
-article .article_body {
-
-  margin: 10px 0px 10px 0px;
-
+article .article_summary {
+  font-size: 1.1em;
+  margin: 10px 0px 50px 0px;
+  color: gray;
 }
-
-
-
-
-
-  
 
 
