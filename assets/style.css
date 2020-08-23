@@ -1,0 +1,50 @@
+
+nav .nav_link {
+  flex-grow: 1;
+}
+
+nav {
+  flex-direction: row;
+  display: inline-flex; 
+  width: 100%;
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+}
+
+object {
+  overflow: visible
+}
+
+article {
+
+  margin: 10px 0px 10px 10%;
+}
+
+article .article_title {
+
+  font-size: 1.5em;
+  margin: 10px 0px 5px 0px;
+
+}
+
+article .article_date {
+  font-size: 1.1em;
+  margin: 5px 0px 10px 0px;
+}
+
+article .article_body {
+
+  margin: 10px 0px 10px 0px;
+
+}
+
+
+
+
+
+  
+
+

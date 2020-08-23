@@ -1,4 +1,3 @@
-
 <html>
   <head>
     <link rel="stylesheet" type = "text/css" href="assets/style.css" />
@@ -6,18 +5,25 @@
       Joraaver Chahal
     </title>
   </head>
-  <body>
-    <div class="title">
+  <header>
+    <h2 class="title">
       Joraaver Chahal
-    </div>
+    </h2>
     <nav>
       <div class="nav_link"><a href="/">Home</a></div>
       <div class="nav_link"><a href="/about.html">About Me</a></div>
       <div class="nav_link"><a href="/projects.html">Projects</a></div>
       <div class="nav_link"><a href="/blog.html">Blog</a></div>
     </nav>
-    When I fill this out, you'll find all the projects I've worked on that are available to the public.
+  </header>
+  <body>
+    <div>
+    When I fill this out, you'll learn what I have to say. What I'm passionate about, what interesting things I've done, or maybe, the state of the world as I see it. Yeah, that sounds about right. 
+    </div>
+
+    <!--#config timefmt="%A" --> <!--#echo var="DATE_LOCAL" -->
+    <!--#include virtual="article_template.html" -->
+
   </body>
 </html>
-
 
