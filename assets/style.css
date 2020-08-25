@@ -10,6 +10,7 @@
 
 body {
   font-family: montserrat;
+  margin-bottom: 50px;
 }
 
 nav .nav_link {
@@ -42,6 +43,10 @@ nav {
 
 main {
   margin: 10px 15% 10px 15%;
+}
+
+.citations {
+  margin-top: 100px;
 }
 
 article {
