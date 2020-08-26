@@ -60,20 +60,34 @@ article .article_title {
   font-family: yellowtail;
 }
 
+a:hover {
+  color: gray;
+}
+
+a {
+  color: black;
+}
+
+
 article img {
   text-align: center;
 }
 
 article .article_date {
-  font-size: 1.1em;
-  margin: 5px 0px 5px 0px;
+  font-size: 1em;
+  margin: 10px 0px 5px 0px;
+  color: gray;
+}
+
+article .tags {
+  font-size: 0.8em;
+  margin: 10px 0px 50px 0px;
   color: gray;
 }
 
 article .article_summary {
   font-size: 1.1em;
-  margin: 10px 0px 50px 0px;
-  color: gray;
+  margin: 10px 0px 5px 0px;
 }
 
 
