@@ -68,6 +68,15 @@ a {
   color: black;
 }
 
+.quote {
+  text-align: center;
+  font-family: yellowtail;
+  font-size: 1.3em;
+}
+
+.quoted {
+  text-align: right;
+}
 
 article img {
   text-align: center;
@@ -79,9 +88,13 @@ article .article_date {
   color: gray;
 }
 
+article .article_body {
+  margin: 50px 0px 0px 0px;
+}
+
 article .tags {
   font-size: 0.8em;
-  margin: 10px 0px 50px 0px;
+  margin: 10px 0px 0px 0px;
   color: gray;
 }
 
