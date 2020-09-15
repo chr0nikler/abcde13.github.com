@@ -1,0 +1,59 @@
+<html>
+  <head>
+    <link rel="stylesheet" type = "text/css" href="../assets/style.css" />
+    <title> Joraaver Chahal </title>
+  </head>
+  <body>
+    <header>
+      <h1 class="title">
+        Joraaver Chahal
+      </h1>
+      <nav>
+        <div class="nav_link"><a href="/about.html">About Me</a></div>
+        <div class="nav_link"><a href="/">Musings</a></div>
+      </nav>
+    </header>
+    <main>
+      <!-- change only content below this line -->
+      <article>
+        <div class="article_title">
+          Why do we say good engineers are lazy?
+        </div>
+        <div class="article_summary">
+          Because I'd never want my engineers to profess how they get away with being truly lazy.
+        </div>
+        <div class="article_date">
+          15 September 2020 04:00 GMT
+        </div>
+        <div class="tags">
+          software engineering
+        </div>
+        <div class="article_body">
+
+          <p>It's a phrase that's thrown around a lot, yet always irks me when I hear it. After all, I don't consider myself lazy (assuming I'm a good engineer). In fact, I consider myself quite assiduous with my work. Given that Marriam-Webster defines "lazy" as "disinclined to activity or exertion: not energetic or vigorous," I'd argue that the "never give up" attitude is the antithesis of that. However, I espouse the "work smarter, not harder" mindset too. So what does the phrase truly mean?</p>
+
+          <div class="image">
+            <img src=../assets/images/engineering.jpg style="width:50%"/>
+            <p>Does number of monitors correlate with the quality of an engineer?</p>
+          </div>
+
+          <p>When the same piece of code appears twice, a good engineer will start to think "Gosh, if I'm going to write more of the same lines of code, I should write a function for that." Then, like the good engineer he is, he writes a function. Now, every subsequent code path that needs the same logic is imbued with one line of code instead five. If it took him forty-five seconds to write every original line of code, it now takes him five seconds with the function call.</p>
+
+          <p>We can take the abstraction even further. If those lines of code existed in seven different places, then each would need individual testing to guarantee correctness. Should the chance of making a mistake while typing those lines of code be 10%, then the chance the engineer makes at least one mistake in these seven places is 52% (1 - the chance of making no mistakes in all seven places). How will he know a test failure is related to the lines of code he wrote? Well, six of the seven tests will pass and he'll have to inspect the seventh test with a keen eye to determine the mistake he made. But the good engineer? There's a 10% chance he'll make a mistake. Should that occur, all seven tests will fail. He'll immediately know where to look. No need to don the Sherlock cap and go sleuthing. You can argue that all the engineer needs to do is copy and paste the code to avoid the mistakes, but that exacerbates the problem. Seven code updates will be needed if a mistake is made.</p>
+
+          <p>What makes the good engineer good? He's good because he recognizes a redundancy, evaluates the utilities of the futures in which he does or does not do the refactor, and takes the action that maximizes the utility. I'm half exaggerating here. "Evaluating utilities of futures" isn't done. Or rather, it's done unconsciously and instantaneously. Regardless, to the employed engineer, time efficiency and code correctness are directly correlated to quality as an engineer. Often, these go hand in hand with good foresight. Lazy is about the last thing I would use to describe this kind of engineer.</p>
+
+          <p>I mused on this subject for three reasons. One, I was tired of hearing it. Even though others will continue to use this phrase, I refuse to do so. It falls in the bucket of "do what I mean, not what I say" phrases I try to avoid. Two, it's not the right mental model for engineers new to the discipline. Don't be lazy. Be smart. Be efficient. Understand the consequences of true laziness. Three, for this site, I have to copy the title, date, and summary from the article page to the index page, and it causes me great anguish. Fortunately for my inner engineer, I came to terms with it because I realized I was being efficient with regards to my goals. All I wanted was to embed one HTML partial within another, and apparently that's to much to ask for from vanilla HTML. But to keep the site lean without turning to an external dependency like Jekyll (which is still simple), I chose to live with the small burden of copying.</p>
+
+          <p>I may write more later on the topic of being a "good engineer" because that's another can of worms. One I find myself questioning time and again. Nevertheless, I've successfully refuted the concept of the "lazy engineer."</p>
+
+        </div>
+        <div class="citations">
+          <hr />
+        </div>
+      </article>
+      <!-- and above this one -->
+
+    </main>
+  </body>
+</html>
